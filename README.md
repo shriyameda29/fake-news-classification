@@ -32,7 +32,7 @@ fakenews_classifier_proj/
 ## Setup Instructions
 1. Clone or download the project folder
 2. Install dependencies: pip install -r requirements.txt
-3. Download the ISOT dataset from Kaggle and place 'Fake.csv' and 'True.csv' in the 'data/' folder
+3. Download the ISOT dataset from Kaggle and place 'Fake.csv' and 'True.csv' in the 'data/' folder, or just run using sample datasets
 4. Run the notebooks in order:
    - 'setup_db.ipynb'
    - 'eda.ipynb'
@@ -56,6 +56,8 @@ predict_article(title, text)
 '''
 
 ## Models and Results
+Results show in notebook are based on sample dataset for reproducibility. All analyses in comments and project report, including final 
+model performance were obtained using the full dataset. 
 Four models were trained and evaluated:
 
 | Model | Accuracy | F1 Score |
