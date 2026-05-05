@@ -5,6 +5,7 @@ This project analyzes linguistic and structural differences between fake and rea
 news articles using the ISOT Fake News Dataset. It builds and compares four machine 
 learning models to classify news articles as fake or real using NLP techniques 
 including TF-IDF and Word2Vec.
+This is a link to the project report: https://docs.google.com/document/d/1JknKEf2GzjQ6lP8rejow7hqQf2PdulE1wuey2HweiTQ/edit?usp=sharing
 
 ## Dataset
 This project uses the ISOT Fake News Dataset, available on Kaggle:
